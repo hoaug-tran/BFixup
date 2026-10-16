@@ -400,6 +400,7 @@
 					"PRODUCT_NAME=$(PRODUCT_NAME)",
 				);
 				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Lilu/Lilu",
 					"${PROJECT_DIR}/Lilu.kext/Contents/Resources",
 					"$(PROJECT_DIR)/MacKernelSDK/Headers",
 				);
@@ -429,6 +430,7 @@
 					"PRODUCT_NAME=$(PRODUCT_NAME)",
 				);
 				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Lilu/Lilu",
 					"${PROJECT_DIR}/Lilu.kext/Contents/Resources",
 					"$(PROJECT_DIR)/MacKernelSDK/Headers",
 				);
