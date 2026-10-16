@@ -1,0 +1,10 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.o
+*.dSYM/
+Lilu.kext/
+*.zip
+
