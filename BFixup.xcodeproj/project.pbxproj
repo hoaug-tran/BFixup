@@ -133,7 +133,7 @@
 				CEDE8D6C22984F7700C73034 /* kern_util.hpp */,
 			);
 			name = Headers;
-			path = Lilu.kext/Contents/Resources/Headers;
+			path = Lilu/Lilu/Headers;
 			sourceTree = "<group>";
 		};
 		CEDE8D5E22984F7700C73034 /* capstone */ = {
@@ -163,7 +163,7 @@
 				CEDE8D7922984F7700C73034 /* LegacyIOService.h */,
 			);
 			name = Library;
-			path = Lilu.kext/Contents/Resources/Library;
+			path = Lilu/Lilu/Library;
 			sourceTree = "<group>";
 		};
 		CEDE8D6F22984F7700C73034 /* wrappers */ = {

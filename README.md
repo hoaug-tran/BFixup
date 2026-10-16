@@ -29,10 +29,11 @@ Originally created by **jalavoui** on InsanelyMac. This fork updates the plugin 
 ## Building from Source
 
 ### Requirements
-
 - macOS with Xcode and Command Line Tools
-- [MacKernelSDK](https://github.com/acidanthera/MacKernelSDK)
-- [Lilu](https://github.com/acidanthera/Lilu) headers (in `Lilu.kext/Contents/Resources/Headers`)
+- Clone with submodules:
+  ```sh
+  git clone --recursive https://github.com/hoaug-tran/BFixup.git
+  ```
 
 ### Build Command
 

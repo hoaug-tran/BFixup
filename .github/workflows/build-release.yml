@@ -23,17 +23,17 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Setup MacKernelSDK if missing
+      - name: Setup Dependencies & Compatibility Paths
         run: |
           if [ ! -d "MacKernelSDK/Headers" ]; then
             git clone --depth 1 https://github.com/acidanthera/MacKernelSDK.git MacKernelSDK
           fi
-
-      - name: Setup Lilu Headers if missing
-        run: |
           if [ ! -d "Lilu/Lilu/Headers" ]; then
             git clone --depth 1 https://github.com/acidanthera/Lilu.git Lilu
           fi
+          mkdir -p Lilu.kext/Contents/Resources
+          ln -sfn ../../../Lilu/Lilu/Headers Lilu.kext/Contents/Resources/Headers
+          ln -sfn ../../../Lilu/Lilu/Library Lilu.kext/Contents/Resources/Library
 
       - name: Build Debug & Release
         run: |
